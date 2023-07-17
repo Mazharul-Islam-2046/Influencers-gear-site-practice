@@ -7,9 +7,10 @@ body {
 	font-family: "Roboto", sans-serif;
 }
 
+/* Navbar styles */
 .nav-bar {
 	margin: auto;
-	padding: 6vw 8vw;
+	padding: 4vw 8vw;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -43,4 +44,55 @@ body {
 	font-style: normal;
 	font-weight: 600;
 	line-height: normal;
+}
+
+/* Hero Section Styles */
+.hero-section {
+	margin: vw auto;
+	padding: 0px 3vw 0px 1.5vw;
+	max-width: 1440px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.hero-content {
+	margin: 0px 0px 3vw;
+}
+.hero-title {
+	margin: 0px;
+	color: #3a3a3a;
+	font-size: 3.2rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 4.3rem;
+}
+
+.hero-description {
+	margin: 0.8vw 0px 1.5vw;
+	color: #3a3a3a;
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+}
+
+.hero-cta {
+	border: none;
+	border-radius: 2.5rem;
+	background: #e02c6d;
+	line-height: 2.5rem;
+	padding: 0.3vw 24px 0.15vw;
+	cursor: pointer;
+}
+
+.hero-cta:hover {
+	background-color: black;
+	color: aliceblue;
+}
+
+/* Hero Img Styles */
+.hero-img-container {
+	padding-top: 2.8vw;
+	background-image: url(../images/Circle\ design.svg);
 }
