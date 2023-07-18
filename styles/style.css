@@ -48,7 +48,7 @@ body {
 
 /* Hero Section Styles */
 .hero-section {
-	margin: vw auto;
+	margin: 2vw auto;
 	padding: 0px 3vw 0px 1.5vw;
 	max-width: 1440px;
 	display: flex;
@@ -95,4 +95,51 @@ body {
 .hero-img-container {
 	padding-top: 2.8vw;
 	background-image: url(../images/Circle\ design.svg);
+}
+
+/* Brand Section Styles */
+.brand-section {
+	margin: 10vw auto;
+	padding-top: 2vw;
+	padding-bottom: 2vw;
+	border-radius: 2px;
+	border-top: 0.2px solid #3a3a3a1f;
+	border-bottom: 0.2px solid #3a3a3a1f;
+	max-width: 70vw;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+/* Featured Products Section Styles */
+.featured-product-section {
+	margin-bottom: 10vw;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+}
+
+.featured-title {
+	color: #0a0826;
+	font-family: "Roboto", sans-serif;
+	font-size: 2.4rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 60px;
+}
+
+.featured-content {
+	margin: 0.7vw auto 2.5vw 0px;
+	color: #6c6c6c;
+	font-size: 1rem;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 28px;
+}
+
+.btn-secondary {
+	padding: 0.8vw 3vw;
+	background-color: #e02c6d;
+	border: none;
+	border-radius: 5px;
 }
